@@ -2,12 +2,16 @@
 
 Design and build a small web application to present USGS earthquake data on a map in the browser.
 
+## Setup
+
+- Before running yarn start, insert your access token in App.tsx first.
+
 ## Requirements
 
-- Frontend logic must be handled using React.
-- Use separate CSS file(s).
-- Include a selector to view all earthquakes in the data set or filter by a specific country.
-- Clicking on an earthquake data point on the map should surface the magnitude, title, and timestamp of the earthquake in a legend and popup marker on the map.
+- Frontend logic must be handled using React. ✅
+- Use separate CSS file(s). ✅
+- Include a selector to view all earthquakes in the data set or filter by a specific country. ✅
+- Clicking on an earthquake data point on the map should surface the magnitude, title, and timestamp of the earthquake in a legend and popup marker on the map. ✅
 
 ## Resources
 
@@ -18,5 +22,5 @@ Design and build a small web application to present USGS earthquake data on a ma
 
 ## Bonuses
 
-- Automatically zoom to the boundary of a country when it is selected.
+- Automatically zoom to the boundary of a country when it is selected. ✅
 - Add a datepicker component to filter earthquakes by a specific date range.

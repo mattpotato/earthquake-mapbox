@@ -5,15 +5,13 @@ import {
   bbox,
   bboxPolygon,
   booleanPointInPolygon,
-  center,
   FeatureCollection,
   multiPolygon,
 } from "@turf/turf";
 import ReactDOM from "react-dom";
 import Select from "react-select";
 
-mapboxgl.accessToken =
-  "pk.eyJ1IjoibWF0dHBvdGF0byIsImEiOiJja202MzNhdXMwN212MnBzOWxxYWpyZ3FjIn0.-taQ2UcKKv77FabkRchXEA";
+mapboxgl.accessToken = "REPLACE MAPBOX TOKEN HERE";
 
 const data: FeatureCollection = require("./earthquakes.json");
 const countries = require("./countries.json");

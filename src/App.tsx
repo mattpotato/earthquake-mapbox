@@ -11,7 +11,8 @@ import {
 import ReactDOM from "react-dom";
 import Select from "react-select";
 
-mapboxgl.accessToken = "REPLACE MAPBOX TOKEN HERE";
+mapboxgl.accessToken =
+  "pk.eyJ1IjoibWF0dHBvdGF0byIsImEiOiJja204c2k5M2EwNDBsMnVxbG45bnJncjEyIn0.Wd4RHNcTZSnruMJytd_o9w";
 
 const data: FeatureCollection = require("./earthquakes.json");
 const countries = require("./countries.json");
@@ -63,7 +64,6 @@ function App() {
 
       mapRef.current.map = map;
       map.on("load", () => {
-        console.log("BRUH");
         setStyleLoaded(true);
 
         map.loadImage(
